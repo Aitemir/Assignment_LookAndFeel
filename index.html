@@ -1,1 +1,106 @@
-<!--Your HTML code here-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NHDC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link href="./css/main.css" type="text/css" rel="stylesheet">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+    <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+        <div class="mdl-tabs__tab-bar">
+            <a href="index.html" class="mdl-tabs__tab is-active">Main</a>
+            <a href="survey.html" class="mdl-tabs__tab">Survey</a>
+            <a href="about.html" class="mdl-tabs__tab">About</a>
+        </div>
+    </div>
+    <div class="container" id="welcomeCard">
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">National Health Data Collection</h2>
+            </div>
+            <div class="mdl-card__supporting-text">
+                The NHDC surveys are simple to do - just click on <b>Get Started</b>
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+                <a href="survey.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    Get Started
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container" id="introduction">
+        <div>
+            <p id="main-title">National Health Data Collection<br /></p>
+        </div>
+        <div>
+            <p>
+                The NHDC organization got its start 10 years ago. At NHDC, we are trying to collect the surveys of patients who are fighting cancer in top hospitals of <br>
+                the country. We work with thousands of patients across the country asking them to provide details and measure customer satisfaction. The results of <br>
+                our survey help millions of people who have cancer and hospitals that are trying to achieve success as well as bring value to the patients.
+            </p>
+        </div>
+        <div>
+            <p>
+                In order to participate in the survey, please fill out the the form and click submit under the survey tab.
+            </p>
+            <br>
+            <p id="secondary-title">Hospital Surveys Submitted:<br /></p>
+        </div>
+        <p>Below is an example of the 3 famous hospitals that already received their reviews.<br /></p>
+    </div>
+
+    </div>
+    </div>
+    <div class="container" id="tableId" style="overflow-x:auto;">
+        <table class="mdl-data-table mdl-js-data-table">
+            <thead>
+                <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Hospital</th>
+                    <th class="mdl-data-table__cell--non-numeric">State</th>
+                    <th class="mdl-data-table__cell--non-numeric">City</th>
+                    <th>Surveys Submitted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">MOFFIT CANCER CENTER</td>
+                    <td class="mdl-data-table__cell--non-numeric">FL</td>
+                    <td class="mdl-data-table__cell--non-numeric">TAMPA</td>
+                    <td>1164</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">DANA-FARBER CANCER INST.</td>
+                    <td class="mdl-data-table__cell--non-numeric">MA</td>
+                    <td class="mdl-data-table__cell--non-numeric">BOSTON</td>
+                    <td>236</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">SEATTLE CANCER CARE ALL</td>
+                    <td class="mdl-data-table__cell--non-numeric">WA</td>
+                    <td class="mdl-data-table__cell--non-numeric">SEATTLE</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td class="mdl-data-table__cell--non-numeric">USC KENNETH NORRIS</td>
+                    <td class="mdl-data-table__cell--non-numeric">CA</td>
+                    <td class="mdl-data-table__cell--non-numeric">LOS ANGELES</td>
+                    <td>164</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="mdl-mini-footer" id="footer">
+        <div class="mdl-mini-footer__left-section">
+            <div class="mdl-logo">NHDC</div>
+            <ul class="mdl-mini-footer__link-list">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Privacy & Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

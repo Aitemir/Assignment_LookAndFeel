@@ -1,47 +1,76 @@
-/**
-Sample css code
-*/
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body,
-html {
-  height: 100%;
+
+.demo-card-wide.mdl-card {
+    width: 512px;
+    margin: auto;
 }
 
-/*Set background image*/
-.container {
-  background-image: url('https://doc-10-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r085o9ungppbiokopob2sfbekae4uqbb/1537920000000/14802840322886517493/*/110cT8sl-pOiHGgj9yToPkAqAzrr-RNfb');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 270px;
+    background: url('sample nhdc_1.png') center / cover;
 }
 
-/* Position text in the middle */
-.middle {
-  position: absolute;
-  color: beige;
-  top: 70%;
-  left: 39%;
-  text-align: center;
-  font-size: 25px;
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
 }
 
-/*Set circle in unordered list*/
-.middle ul {
-  list-style-type: circle;
+#introduction {
+    padding-top: 40px;
 }
 
-/*Set text inside li tag to left*/
-.middle ul li {
-  text-align: left !important;
+#welcomeCard {
+    padding-top: 40px;
 }
 
-/*Set text color for a tag inside middle class and ul>li element*/
-.middle ul li a {
-  color: beige;
+table {
+    margin: auto;
+    padding-bottom: 100px;
 }
 
-/*Change text color and decoration for a tags inside middle class and ul>li element*/
-.middle ul li a:hover {
-  color: red;
-  text-decoration: none;
+#main-title {
+    color: #019ED5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#secondary-title {
+    color: #019ED5;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#form-title {
+    font-size: 18px;
+}
+
+
+#footer {
+    position: absolute;
+    width: 100%;
+}
+
+#tableId {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#form {
+    padding-bottom: 30px;
+}
+
+#surveyExample {
+    padding-top: 30px;
+}
+
+#submitButton {
+    padding-top: 15px;
+}
+
+#firstPic {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#secondPic {
+    text-align: center;
 }
